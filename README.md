@@ -1,3 +1,23 @@
+# Word and Letter Counter
+A simple React application to count the number of words and letters in a user-entered text in real-time.
+# Features
+- Counts the number of words in the input text.
+- Counts the number of letters (including spaces) in the input text.
+- Real-time updates as the user types.
+# Technologies Used
+1. React
+- useState: A React Hook for managing state.
+- Functional Components: Used to define the WordLetterCounter component.
+2. JavaScript
+- String Methods:
+trim(): To remove extra spaces from the beginning and end of the text.
+split(): To break the text into an array of words.
+- Regex:
+/\s+/: Used to split the text by spaces, tabs, or newlines.
+
+![Uploading image.png…]()
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
